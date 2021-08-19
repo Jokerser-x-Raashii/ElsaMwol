@@ -48,8 +48,13 @@
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.!;#]"
         },
+        "OWNER_NAME": {
+            "description": "reply for .owner ! give your details, Use => default, to change back.",
+            "required": false,
+            "value": "default"
+       },    
         "FULL_EVA": {
             "description": "Turn your account into a chatbot!",
             "required": true,
